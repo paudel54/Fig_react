@@ -17,7 +17,7 @@ const Header = () => {
           {/* <Nav /> */}
           <NavButtons />
         </div>
-        <Button />
+        <Button text="GET STARTED" />
       </div>
     </header>
   );
