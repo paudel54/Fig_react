@@ -8,11 +8,11 @@ function App() {
   const [navMob, setNavMob] = useState(false);
   return (
     <div className="App">
-      <div className='w-screen h-screen bg-purple-700'>
+      <div className='w-screen h-screen bg-hero-pattern  bg-[length:100%_80%] bg-no-repeat' >
         <Header setNavMob={setNavMob} />
         <Hero />
       </div>
-    </div>
+    </div >
   );
 }
 

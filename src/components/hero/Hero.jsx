@@ -14,8 +14,8 @@ const Hero = () => {
         </p>
         <Button text="GET STARTED" className="mb-4" />
         {/* Hero Image  */}
-        <div className="flex-1">
-          <img src={HeroImg} alt="banner" />
+        <div className="flex-1 -mt-2">
+          <img src={HeroImg} alt="banner" className="h-[46rem]" />
         </div>
       </div>
     </section>

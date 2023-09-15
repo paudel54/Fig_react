@@ -6,7 +6,7 @@ import NavButtons from "../button/NavButtons";
 
 const Header = () => {
   return (
-    <header className="py-[30px] lg:pt-[60px]">
+    <header className="py-[20px] lg:pt-[30px] ">
       <div className="flex items-center justify-between mx-auto container">
         {/* LOGO */}
         <a href="#/">
