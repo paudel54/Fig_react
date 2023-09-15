@@ -3,6 +3,11 @@ import './App.css';
 import Header from './components/Header/Header';
 import Hero from './components/hero/Hero';
 import Features from './pages/Features';
+import Process from './pages/Process';
+import Brands from "./pages/Brands";
+import Start from './pages/Start';
+import Footer from './pages/Footer';
+
 function App() {
   // State management for navbar
   const [navMob, setNavMob] = useState(false);
@@ -13,6 +18,10 @@ function App() {
         <Hero />
       </div>
       <Features />
+      <Process />
+      <Brands />
+      <Start />
+      <Footer />
     </div >
   );
 }
