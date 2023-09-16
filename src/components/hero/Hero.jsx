@@ -12,10 +12,14 @@ const Hero = () => {
         <p className="text-white max-w-[440px] leading-relaxed mb-8">
           We are Creative and Professional Digital Agency
         </p>
-        <Button text="GET STARTED" className="mb-4" />
+        <Button text="GET STARTED" className="mb-0 lg:mb-4" />
         {/* Hero Image  */}
-        <div className="flex-1 -mt-2">
-          <img src={HeroImg} alt="banner" className="h-[46rem]" />
+        <div className="flex-1 -mt-8 lg:-mt-2 ">
+          <img
+            src={HeroImg}
+            alt="banner"
+            className="mt-10 lg:mt-0 h-[23rem] lg:h-[46rem]"
+          />
         </div>
       </div>
     </section>

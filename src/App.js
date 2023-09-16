@@ -7,15 +7,21 @@ import Process from './pages/Process';
 import Brands from "./pages/Brands";
 import Start from './pages/Start';
 import Footer from './pages/Footer';
+import NavMobile from './components/nav/NavMobile';
 
 function App() {
   // State management for navbar
-  const [navMob, setNavMob] = useState(false);
+  const [navMobile, setNavMobile] = useState(false);
   return (
-    <div className="App">
+    <div className="overflow-hidden">
       <div className='w-screen h-screen bg-hero-pattern  bg-[length:100%_80%] bg-no-repeat mb-[10rem]' >
-        <Header setNavMob={setNavMob} />
+        <Header setNavMobile={setNavMobile} />
         <Hero />
+        {/* Navigation onto mobile version */}
+        {/* toggle effect to show and hide the card icons */}
+        <div className={`${navMobile ? 'right-0' : '-right-full'} fixed z-10 top-0 h-full transition-all duration-200`}>
+          <NavMobile setNavMobile={setNavMobile} />
+        </div>
       </div>
       <Features />
       <Process />
