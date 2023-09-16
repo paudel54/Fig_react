@@ -24,16 +24,16 @@ const Start = () => {
         </div>
         {/* Requires a fix of z-index  */}
         <div
-          className="relative -mt-10 lg:mt-0"
+          className="relative -mt-10 lg:mt-0 z-10"
           data-aos="fade-left"
           data-aos-delay="400"
           data-aos-duration="2000"
         >
-          <img src={FootImg} alt="banner" className="z-10" />
+          <img src={FootImg} alt="banner" className="z-30 relative" />
           <img
             src={FootVector}
             alt="banner"
-            className="absolute -top-20 -right-11 z-0"
+            className="absolute -top-20 -right-11 z-10"
           />
         </div>
       </div>
