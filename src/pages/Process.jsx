@@ -12,7 +12,7 @@ const Process = () => {
           help you <br /> solve all business problems
         </p>
         {/* <ProcessCard /> */}
-        <div className=" ">
+        <div>
           {ProcessInfo.map((item, index) => {
             return (
               <ProcessCard
