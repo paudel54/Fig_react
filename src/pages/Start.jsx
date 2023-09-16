@@ -4,7 +4,7 @@ import FootVector from "../assets/img/Vector.png";
 
 const Start = () => {
   return (
-    <div className="h-screen w-screen bg-gradient-to-l from-[#35D3FF] to-[#A963FB]">
+    <div className="h-90vh w-screen bg-gradient-to-l from-[#35D3FF] to-[#A963FB]">
       <div className="flex items-center justify-center gap-40 py-[10rem]">
         <div className="text-start">
           <h1 className="text-[#FFFFFF] mb-4">START WITH US</h1>
@@ -13,16 +13,17 @@ const Start = () => {
           </h1>
           <p className="text-white mb-8">
             We know the best solution for all of your <br /> business ideas and
-            we can help you solve <br /> all business problems
+            we can help you solve <br /> all business problems.
           </p>
           <Button text="GET STARTED" />
         </div>
+        {/* Requires a fix of z-index  */}
         <div className="relative">
-          <img src={FootImg} alt="banner" className="" />
+          <img src={FootImg} alt="banner" className="z-10" />
           <img
             src={FootVector}
             alt="banner"
-            className="absolute -top-20 -right-11 z-10"
+            className="absolute -top-20 -right-11 z-0"
           />
         </div>
       </div>
