@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { colorVariants } from "../../data";
 
 const Card = ({ icon, heading, desc, color }) => {
   return (
@@ -9,14 +10,15 @@ const Card = ({ icon, heading, desc, color }) => {
     >
       {/* error color hex needed fix for variable */}
       <div
-        className={`mb-4 w-[3rem] h-[3rem] bg-[#E7F2EF] rounded-full items-center justify-center flex `}
+        className={`mb-4 w-[3rem] h-[3rem] ${colorVariants[color]}  rounded-full items-center justify-center flex `}
       >
         <img src={icon} alt="icons" />
       </div>
       <h1 className="font-bold text-xl mb-4">{heading}</h1>
+
       <p className=" lg:font-[2rem] text-[#595E64] ">{desc}</p>
 
-      {/* {color} */}
+      {color}
     </div>
   );
 };

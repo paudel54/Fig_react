@@ -1,4 +1,5 @@
 import ProcessCard from "../components/cards/ProcessCard.jsx";
+import Line from "../assets/img/Line.png";
 import { ProcessInfo } from "../data.js";
 import V1 from "../assets/img/V1.png";
 import V2 from "../assets/img/V2.png";
@@ -48,8 +49,15 @@ const Process = () => {
           We know the best solution for all of your business ideas and we can
           help you <br /> solve all business problems
         </p>
+
         {/* <ProcessCard /> */}
         <div className="z-20">
+          {/* Need to add line behind using zindex bug fix */}
+          <img
+            src={Line}
+            alt="line"
+            className="z-10 absolute right-[50vw] h-[1/2]"
+          />
           {ProcessInfo.map((item, index) => {
             return (
               <ProcessCard

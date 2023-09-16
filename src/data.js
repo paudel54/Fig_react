@@ -8,7 +8,7 @@ import user from "../src/assets/icons/User.svg";
 import folder from "../src/assets/icons/Folder.svg";
 import document from "../src/assets/icons/Document.svg";
 
-import p4 from "../src/assets/img/p4.png"
+import p1 from "../src/assets/img/p1.png"
 import p2 from "../src/assets/img/p2.png"
 import p3 from "../src/assets/img/p3.png"
 
@@ -79,9 +79,24 @@ export const cardInfo = [
 
 ]
 
+export const colorVariants = {
+    "#FFE7DB": "bg-[#FFE7DB]",
+    "#E7F2EF": "bg-[#E7F2EF]",
+    "#FAF3D8": "bg-[#FAF3D8]",
+    "#C0F2EF": "bg-[#C0F2EF]",
+    "#EDE7F2": "bg-[#EDE7F2]",
+    "#D8F0FA": "bg-[#D8F0FA]",
+
+    // 
+    "#DAE6FF": "bg-[#DAE6FF]",
+    "#E9E5FF": "bg-[#E9E5FF]",
+    "#CEEDFF": "bg-[#CEEDFF]",
+
+};
+
 export const ProcessInfo = [
     {
-        image: p3,
+        image: p1,
         heading: 'busines audit',
         description: "An audit examines your business's financial records to verify they are accurate. This is done through a systematic review of your transactions.",
         color: "#DAE6FF",
@@ -91,7 +106,7 @@ export const ProcessInfo = [
         image: p2,
         heading: 'Data tracking',
         description: "The hardware and software, which when used together allows you to know where something is at any point in time",
-        color: "#DAE6FF",
+        color: "#E9E5FF",
         icon: folder
     },
     {
