@@ -89,7 +89,7 @@ export const ProcessInfo = [
     },
     {
         image: p2,
-        heading: 'busines audit',
+        heading: 'Data tracking',
         description: "The hardware and software, which when used together allows you to know where something is at any point in time",
         color: "#DAE6FF",
         icon: folder
