@@ -1,10 +1,16 @@
 import chart from "../src/assets/icons/f1.svg";
 import search from "../src/assets/icons/Search.svg";
+import searchb from "../src/assets/icons/Searchb.svg";
 import graph from "../src/assets/icons/Graph.svg";
 import discount from "../src/assets/icons/Discount.svg";
 import bag2 from "../src/assets/icons/Bag2.svg";
 import user from "../src/assets/icons/User.svg";
+import folder from "../src/assets/icons/Folder.svg";
+import document from "../src/assets/icons/Document.svg";
 
+import p4 from "../src/assets/img/p4.png"
+import p2 from "../src/assets/img/p2.png"
+import p3 from "../src/assets/img/p3.png"
 
 export const navData = [
     {
@@ -69,6 +75,31 @@ export const cardInfo = [
         heading: 'Data tracking',
         description: "The hardware and software, which when used together allows you to know where something is at any point in time.",
         color: "#D8F0FA",
+    },
+
+]
+
+export const ProcessInfo = [
+    {
+        image: p3,
+        heading: 'busines audit',
+        description: "An audit examines your business's financial records to verify they are accurate. This is done through a systematic review of your transactions.",
+        color: "#DAE6FF",
+        icon: searchb
+    },
+    {
+        image: p2,
+        heading: 'busines audit',
+        description: "The hardware and software, which when used together allows you to know where something is at any point in time",
+        color: "#DAE6FF",
+        icon: folder
+    },
+    {
+        image: p3,
+        heading: 'Results',
+        description: "An audit examines your business's financial records to verify they are accurate. This is done through a systematic review of your transactions. ",
+        color: "#CEEDFF",
+        icon: document
     },
 
 ]
