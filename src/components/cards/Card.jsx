@@ -2,7 +2,11 @@ import React from "react";
 
 const Card = ({ icon, heading, desc, color }) => {
   return (
-    <div className="w-[23rem] h-[18rem] bg-gray-50 hover:drop-shadow-lg transition ease-in-out transition-duration:150ms  rounded-xl px-10 py-10 ">
+    <div
+      className="w-[23rem] h-[18rem] bg-gray-50 hover:drop-shadow-lg transition ease-in-out transition-duration:150ms  rounded-xl px-10 py-10 "
+      data-aos="fade-up"
+      data-aos-delay="1200"
+    >
       {/* error color hex needed fix for variable */}
       <div
         className={`mb-4 w-[3rem] h-[3rem] bg-[#E7F2EF] rounded-full items-center justify-center flex `}

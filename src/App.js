@@ -1,5 +1,7 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 import Header from './components/Header/Header';
 import Hero from './components/hero/Hero';
 import Features from './pages/Features';
@@ -12,6 +14,14 @@ import NavMobile from './components/nav/NavMobile';
 function App() {
   // State management for navbar
   const [navMobile, setNavMobile] = useState(false);
+  // initialize aos on render
+  useEffect(() => {
+    Aos.init({
+      duration: 2500,
+      delay: 400,
+    });
+  }
+  );
   return (
     <div className="overflow-hidden">
       <div className='w-screen h-3/5 lg:h-screen bg-hero-pattern bg-[length:100%_75%]  lg:bg-[length:100%_80%] bg-no-repeat -mb-[1rem]  lg:mb-[10rem]' >

@@ -11,7 +11,12 @@ const Header = ({ setNavMobile }) => {
     setNavMobile(true);
   };
   return (
-    <header className="py-[20px] lg:pt-[30px] ">
+    <header
+      className="py-[20px] lg:pt-[30px]"
+      data-aos="fade-down"
+      data-aos-delay="400"
+      data-aos-duration="2000"
+    >
       <div className="flex items-center justify-between mx-auto container">
         {/* LOGO */}
         <a href="#/">

@@ -7,7 +7,12 @@ const Brands = () => {
       <h1 className="text-xl lg:text-4xl text-center font-medium leading-smooth mb-4 text-[#3B3E43]">
         We work with thousands of the world's <br /> leading Brands
       </h1>
-      <div className="flex flex-col items-center justify-center mb-4 mx-[1rem] lg:mx-[0rem]">
+      <div
+        className="flex flex-col items-center justify-center mb-4 mx-[1rem] lg:mx-[0rem]"
+        data-aos="fade-right"
+        data-aos-delay="400"
+        data-aos-duration="2000"
+      >
         <img src={Sponcer2} alt="sponcers" />
         <img src={Sponcer1} alt="sponcers" />
       </div>

@@ -3,7 +3,11 @@ import HeroImg from "../../assets/img/hero-img.png";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto">
+    <section
+      className="container mx-auto"
+      data-aos="fade-up"
+      data-aos-delay="1200"
+    >
       <div className="flex items-center justify-center flex-col">
         {/* Hero text */}
         <h1 className="text-[32px] lg:text-[62px] mb-4 text-white text-center">
