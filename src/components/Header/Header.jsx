@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../../assets/img/Logo.png";
 import Button from "../button/Button";
-import Nav from "../nav/Nav";
 import NavButtons from "../button/NavButtons";
 import { RxHamburgerMenu } from "react-icons/rx";
 

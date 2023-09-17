@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { colorVariants } from "../../data";
 
 const Card = ({ icon, heading, desc, color }) => {
