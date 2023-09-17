@@ -13,10 +13,10 @@ const Start = () => {
           data-aos-duration="2000"
         >
           <h1 className="text-[#FFFFFF] lg:mb-4 opacity-50">START WITH US</h1>
-          <h1 className=" text-[2rem] lg:text-[3rem] font-medium text-white mb-4">
-            Start Working <br /> Faster Today
+          <h1 className="text-[2rem] lg:text-[3rem] font-medium text-white mb-4">
+            Start Working <br className="hidden lg:inline" /> Faster Today
           </h1>
-          <p className="text-white mb-6 lg:mb-8 text-sm lg:text-lg">
+          <p className="text-white mb-6 lg:mb-8 text-sm md:text-base lg:text-lg">
             We know the best solution for all of your <br /> business ideas and
             we can help you solve <br /> all business problems.
           </p>

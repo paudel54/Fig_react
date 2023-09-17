@@ -57,6 +57,9 @@ const Process = () => {
             src={Line}
             alt="line"
             className="z-10 absolute right-[50vw] h-[1/2]"
+            data-aos="fade-down"
+            data-aos-delay="400"
+            data-aos-duration="2000"
           />
           {ProcessInfo.map((item, index) => {
             return (

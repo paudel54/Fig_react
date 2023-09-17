@@ -18,7 +18,7 @@ const Card = ({ icon, heading, desc, color }) => {
 
       <p className=" lg:font-[2rem] text-[#595E64] ">{desc}</p>
 
-      {color}
+      {/* {color} */}
     </div>
   );
 };

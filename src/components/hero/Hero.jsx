@@ -10,10 +10,10 @@ const Hero = () => {
     >
       <div className="flex items-center justify-center flex-col">
         {/* Hero text */}
-        <h1 className="text-[32px] lg:text-[62px] mb-4 text-white text-center">
+        <h1 className="text-2xl md:text-4xl lg:text-[62px] mb-4 text-white text-center">
           A Digital Product Design Agency
         </h1>
-        <p className="text-white max-w-[440px] leading-relaxed mb-8">
+        <p className="sm:text-xs md:text-sm lg:text-lg text-white max-w-[440px] leading-relaxed mb-8">
           We are Creative and Professional Digital Agency
         </p>
         <Button text="GET STARTED" className="mb-0 lg:mb-4" />
@@ -22,7 +22,7 @@ const Hero = () => {
           <img
             src={HeroImg}
             alt="banner"
-            className="mt-10 lg:mt-0 h-[23rem] lg:h-[46rem]"
+            className="mt-10 lg:mt-0 h-[23rem] lg:h-[46rem] px-5 "
           />
         </div>
       </div>

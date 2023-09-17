@@ -23,7 +23,7 @@ function App() {
   }
   );
   return (
-    <div className="overflow-hidden">
+    <div className='overflow-hidden'>
       <div className='w-screen h-3/5 lg:h-screen bg-hero-pattern bg-[length:100%_75%]  lg:bg-[length:100%_80%] bg-no-repeat -mb-[1rem]  lg:mb-[10rem]' >
         <Header setNavMobile={setNavMobile} />
         <Hero />

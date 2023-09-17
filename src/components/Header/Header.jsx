@@ -11,11 +11,13 @@ const Header = ({ setNavMobile }) => {
     setNavMobile(true);
   };
   return (
+    //className="py-[20px] lg:pt-[30px] className="sticky top-0 z-30 w-full px-2 py-4  border-2 bg-red-300 sm:px-4 shadow-xl""
+
     <header
-      className="py-[20px] lg:pt-[30px]"
       data-aos="fade-down"
       data-aos-delay="400"
       data-aos-duration="2000"
+      className="py-[20px] lg:pt-[30px]"
     >
       <div className="flex items-center justify-between mx-auto container">
         {/* LOGO */}
